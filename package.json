@@ -1,7 +1,7 @@
 {
   "name": "no-nil",
   "main": "no-nil.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Removes nil values from objects and arrays.  Converts all other nil values to null.",
   "author": "Joseph Spencer",
   "scripts": {
