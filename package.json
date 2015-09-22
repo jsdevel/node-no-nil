@@ -1,0 +1,32 @@
+{
+  "name": "no-nil",
+  "main": "no-nil.js",
+  "version": "1.0.0",
+  "description": "Removes nil values from objects and arrays.  Converts all other nil values to null.",
+  "author": "Joseph Spencer",
+  "scripts": {
+    "pretest": "jshint no-nil.js test.js",
+    "cover": "istanbul cover _mocha -- ./test.js && cat ./coverage/lcov.info | coveralls -v && rm -rf coverage",
+    "test": "mocha -w ./test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jsdevel/node-no-nil.git"
+  },
+  "keywords": [],
+  "contributors": [],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsdevel/node-no-nil/issues"
+  },
+  "devDependencies": {
+    "chai": "^3.3.0",
+    "coveralls": "^2.11.4",
+    "istanbul": "^0.3.20",
+    "jshint": "^2.8.0",
+    "mocha": "^2.3.3"
+  },
+  "dependencies": {
+    "no-utils": "*"
+  }
+}
